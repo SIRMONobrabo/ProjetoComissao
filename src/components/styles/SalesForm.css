@@ -1,0 +1,23 @@
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: 25px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-top: 25px;
+            margin-left: auto;
+            background-color: rgb(18, 95, 18);
+        }
+}

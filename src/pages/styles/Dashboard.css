@@ -1,0 +1,26 @@
+.dashboard-page h1{
+    font-size: 3.2em;
+    line-height: 1.1;
+    margin-bottom: 75px;
+}
+
+
+.stats-grid{
+    margin-left: 50px;
+}
+
+.stat-card{
+    margin-top: 35px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.quick-actions{
+    margin-top: 50px;
+
+    .action-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-top: 35px;
+    }
+}

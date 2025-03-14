@@ -1,4 +1,5 @@
 import { useSales } from '../context/SalesContext';
+import './styles/SalesList.css';
 
 // components/SalesList.jsx
 const SalesList = () => {{
@@ -6,12 +7,14 @@ const SalesList = () => {{
 
   return (
     <div className="sales-list">
-      <h3>Histórico de Vendas</h3>
+      <h3>Vendas</h3>
       <ul>
         {sales.map((sale) => (
           <li key={sale.id}>
             <span>Venda #{sale.number}</span>
+            <i></i>
             <span>R$ {sale.value.toFixed(2)}</span>
+            <i></i>
             <button onClick={() => deleteSale(sale.id)}>Excluir</button>
           </li>
         ))}

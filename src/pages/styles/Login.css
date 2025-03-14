@@ -1,0 +1,24 @@
+.login-card{
+    h1{
+        margin-bottom: 50px;
+    }
+
+    .form-group{
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.form-group label{
+    font-size: 20px;
+}
+
+.form-group input{
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}

@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import { useSales } from '../context/SalesContext';
+import './styles/Dashboard.css';
 
 const Dashboard = () => {
   const { totalCommission, sales } = useSales();
@@ -27,12 +29,14 @@ const Dashboard = () => {
       <div className="quick-actions">
         <h3>Ações Rápidas</h3>
         <div className="action-buttons">
-          <button className="action-button">
-            Nova Venda
-          </button>
-          <button className="action-button">
-            Histórico
-          </button>
+          <Link to={"/nova-venda"}>
+            <button className="action-button">Nova Venda</button>
+          </Link>
+          <Link to={"/vendas"}>
+            <button className="action-button">
+              Histórico
+            </button>
+          </Link>
         </div>
       </div>
     </div>

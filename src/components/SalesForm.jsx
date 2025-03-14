@@ -1,6 +1,7 @@
 // SalesForm.jsx
 import { useState } from 'react';
 import { useSales } from '../context/SalesContext';
+import './styles/SalesForm.css';
 
 const SalesForm = () => {
   const [sale, setSale] = useState({ number: '', value: '' });

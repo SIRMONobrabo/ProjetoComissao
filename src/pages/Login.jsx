@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import './styles/Login.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -32,7 +33,7 @@ const handleSubmit = async (e) => {
   return (
     <div className="login-page">
       <div className="login-card">
-        <h2>Bem-vindo ao Sistema</h2>
+        <h1>Bem-vindo ao Sistema</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Usuário:</label>
