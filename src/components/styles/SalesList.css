@@ -24,3 +24,12 @@
             margin-bottom: 10px;
         }
 }
+
+@media (prefers-color-scheme: light) {
+    .sales-list li{
+        button{
+            background-color: #f25042;
+            
+        }
+    }
+  }

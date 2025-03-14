@@ -21,3 +21,12 @@ form {
             background-color: rgb(18, 95, 18);
         }
 }
+
+@media (prefers-color-scheme: light) {
+    form{
+        button{
+            background-color: rgb(20, 133, 20);
+            
+        }
+    }
+  }
